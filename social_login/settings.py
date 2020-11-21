@@ -19,12 +19,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ''
+SECRET_KEY = '*w2@q2pfwovmlx0$sw(_c=5sexz)5wkvbl@p8460dpoij2!lc1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 # Application definition
 
@@ -60,8 +60,8 @@ SITE_ID = 1
 SOCIALACCOUNT_PROVIDERS = {
     'kakao': {
         'APP': {
-            'client_id': '',
-            'secret': '',
+            'client_id': 'd01f306c90eda69601dda10cdf62631e',
+            'secret': '492230',
             'key': '',
         }
     }

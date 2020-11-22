@@ -80,16 +80,6 @@ def kakao_callback(request):
     #                                             is_active=True
     #                                             )
 
-    # return HttpResponse(json.dumps(
-    #     {
-    #         'access_token': access_token,
-    #         'email': email,
-    #         'nickname': nickname,
-    #         'profile': profile,
-    #         'kakao_account': kakao_account,
-    #         'profile_image': profile_image,
-    #     }
-    # ))
     return redirect(f'http://localhost:4200/after-login?access_token={access_token}')
 
 
